@@ -1,0 +1,104 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  margin: 0%;
+}
+
+.container{
+  width: 960px;
+  height: 500px;
+  background-color: #efeee7;
+  margin: 0% auto;
+  line-height: 150%;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+  top: -500px;
+}
+
+#Header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  background-color: #efeee7;
+  border-color: #cccccc;
+  padding: 20px;
+}
+
+#Title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  padding: 15px;
+  background: #4aaaa5;
+  width: 200px;
+  position: absolute;
+  left: 300px;
+}
+#Bio-Picture{
+  width: 200px;
+  height: 300px;
+  float: left;
+  padding: 15px;
+}
+
+.Images{
+  width: 200px;
+  height: 100px;
+}
+
+form{
+  padding: 15px;
+}
+
+.links:hover{
+  text-decoration: none;
+}
+
+#message-box{
+  height: 200px;
+  width: 900px;
+}
+
+#button{
+  background: #4aaaa5;
+  height: 40px;
+  width: 70px;
+  color: white;
+}
+
+#button:hover{
+  background-color: white;
+  color: black;
+}
+
+nav{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.pictures{
+  column-count: 2;
+}
+
+.main-header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+  background-color: white;
+  left: 10px;
+  right: 10px;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  padding: 25px;
+  background-color: #666666;
+  border-color: #4aaaa5;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  text-align: center;
+}
