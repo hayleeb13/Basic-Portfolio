@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS Style Page */
 
 /* Main style for all three pages */
@@ -8,10 +9,17 @@ body{
   padding: 0px;
   position: relative;
   background-image: url(../images/dark-paths.png);
+=======
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  margin: 0%;
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
 }
 
 .container{
   width: 960px;
+<<<<<<< HEAD
   height: 400px;
   margin: 0% auto;
   line-height: 150%;
@@ -26,26 +34,41 @@ body{
 .container2{
   width: 700px;
   height: 450px;
+=======
+  height: 500px;
+  background-color: #efeee7;
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
   margin: 0% auto;
   line-height: 150%;
   font-family: 'Raleway', sans-serif;
   padding: 20px;
+<<<<<<< HEAD
   background-color: white;
   border-color: gray;
   border-style: solid;
   border-width: 1px;
+=======
+  top: -500px;
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
 }
 
 #Header{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #4aaaa5;
+<<<<<<< HEAD
   padding: 0px;
   position: relative;
+=======
+  background-color: #efeee7;
+  border-color: #cccccc;
+  padding: 20px;
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
 }
 
 #Title{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
+<<<<<<< HEAD
   padding: 10px;
   background: #4aaaa5;
   width: 200px;
@@ -102,6 +125,14 @@ nav{
 
 /* Styling for index html */
 
+=======
+  padding: 15px;
+  background: #4aaaa5;
+  width: 200px;
+  position: absolute;
+  left: 300px;
+}
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
 #Bio-Picture{
   width: 200px;
   height: 300px;
@@ -109,6 +140,7 @@ nav{
   padding: 15px;
 }
 
+<<<<<<< HEAD
 #main-link{
   position: absolute;
   right: 265px;
@@ -118,13 +150,30 @@ nav{
 
 /* Styling for contact html */
 
+=======
+.Images{
+  width: 200px;
+  height: 100px;
+}
+
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
 form{
   padding: 15px;
 }
 
+<<<<<<< HEAD
 #message-box{
   height: 150px;
   width: 650px;
+=======
+.links:hover{
+  text-decoration: none;
+}
+
+#message-box{
+  height: 200px;
+  width: 900px;
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
 }
 
 #button{
@@ -139,6 +188,7 @@ form{
   color: black;
 }
 
+<<<<<<< HEAD
 /* Styling for portfolio html */
 
 .pictures{
@@ -233,3 +283,38 @@ form{
   top: 335px;
   right: 700px;
 }
+=======
+nav{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.pictures{
+  column-count: 2;
+}
+
+.main-header{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+  background-color: white;
+  left: 10px;
+  right: 10px;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  padding: 25px;
+  background-color: #666666;
+  border-color: #4aaaa5;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  text-align: center;
+}
+>>>>>>> 7878bd7719e72cf33694592b82ab513c5e78bf1a
